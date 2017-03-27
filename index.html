@@ -2,24 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <title>Title</title>
-    <script src="js/jquery-1.8.3.min.js" charset="UTF-8"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
-    <script src="js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
-    <script src="index.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        span{
-            color:gray;
-        }
-    </style>
-
 </head>
 <body>
-	zaixianclock.com
+    <div class="panel panel-default">
+        <img src="img/title.png"  class="img-rounded">
+        <img src="img/MAS-3245.png" class="img-circle">
+        <img src="img/MAS-5242-LG.png"  class="img-thumbnail">
+    </div>
+<div >
+    <button type="button" class="btn btn-default dropdown dropdown-toggle">dianwo
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li class="dropdown-menu-item">11</li>
+        <li class="dropdown-menu-item">11</li>
+        <li class="dropdown-menu-item">11</li>
+        <li class="dropdown-menu-item">11</li>
+        <li class="dropdown-menu-item">11</li>
+    </ul>
+</div>
+    <div class="btn-wrap">
+        <!-- btn-group分组容器 -->
+        <!-- btn-group-lg按钮组大小，不有btn-group-sm与btn-group-xs -->
+        <!-- btn-group-vertical垂直分组 -->
+        <!-- btn-group-justified等分按钮，自适应，尽量使用<a>标签 -->
+        <div class="btn-group btn-group-lg btn-group-vertical btn-group-justified">
+            <a class="btn btn-default" href="#">首页</a>
+            <a class="btn btn-default" href="#">产品展示</a>
+            <a class="btn btn-default" href="#">案例分析</a>
+            <!-- span中加类caret向下三角形 -->
+            <!-- 在上面btn-group后加dropup，则为向上三角形 -->
+            <a class="btn btn-default" href="#">联系我们<span class="caret"></span></a>
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">面板标题 </h3>
+        </div>
+        <div class="panel-body">
+            这是一个基本的面板
+        </div>
+        <div class="panel-footer">面板脚注</div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
